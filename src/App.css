@@ -1,38 +1,67 @@
-.App {
+#nav{
+  background-color:#e6e6e6;
+  height: 80px;
+  margin: 0;
+  display: flex;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+#nav-prim{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#nav img{
+  width: 25%;
+}
+
+#search{
+  width: 25%;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  background-color: #c9c9c9;
+  justify-content: center;
+}
+
+#hero{
+  background-color:#cccccc;
+  height: 600px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+#agenda{
+  background-color:pink;
+  height: 750px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#blog{
+  background-color:pink;
+  height: 750px;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#contacto{
+  background-color:#666666;
+  height: 750px;
   color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer{
+  background-color:#cccccc;
+  height: 100px;
+  text-align: center;
 }
